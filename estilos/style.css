@@ -46,7 +46,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: var(--cor2) url(../imagens/metal.jpg) no-repeat;
+    background: var(--cor2) url(../imagens/login-phone.jpg) no-repeat;
     background-size: cover;
     height: 200px;
 }
