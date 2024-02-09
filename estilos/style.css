@@ -6,6 +6,7 @@
     --cor2: #a6a6a6;
     --cor3: #8c8c8c;
     --cor4: #737373;
+    --cor5:  #363636;
 }
 
 * {
@@ -46,8 +47,9 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: var(--cor2) url(../imagens/login-phone.jpg) no-repeat;
+    background: var(--cor2) url(../imagens/login.avif) no-repeat;
     background-size: cover;
+    background-position: center;
     height: 200px;
 }
 
@@ -63,4 +65,20 @@ div#formulario > h1 {
 
 div#formulario > p {
     font-size: 0.8em;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: var(--cor4);
+    color: #ffffff;    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: var(--cor5);
 }

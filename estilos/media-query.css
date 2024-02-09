@@ -23,10 +23,6 @@
     }
 
     section#login > div#imagem {
-        display: block;
-        background-image: url(../imagens/login-3.jpg) no-repeat;
-        background-size: cover;
-        background-position: center;
         float: left;
         width: 30%;
         height: 100%;
@@ -53,10 +49,6 @@
     }
 
     section#login > div#imagem {
-        display: block;
-        background-image: url(../imagens/login-3.jpg) no-repeat;
-        background-size: cover;
-        background-position: center;
         float: right;
         width: 50%;
         height: 100%;
